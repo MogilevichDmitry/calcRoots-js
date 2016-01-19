@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <title>Вычисление корней квадратного уравнения</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div class="main">
     <form class="input-block">
         <h1> Введите коэффициенты квадратного уравнения </h1>
         <input type="text" id="a">
-        <p>x*x +</p>
+        <p>x<small class="font_over">2</small> +</p>
         <input type="text" id="b">
         <p>x+</p>
         <input type="text" id="c">
         <p> = 0</p>
-        <input type="button" onclick="calcRoots()" value="Посчитать корни"/>
+        <input type="button" onclick="calcRoots(form)" value="Посчитать корни"/>
     </form><!--input-block-->
     <form class="output-block">
-        <p> x1= </p>
+        <p> x<small class="font_under">1</small> = </p>
         <input type="text" id="x1" value="">
-        <p> x2= </p>
+        <p> x<small class="font_under">2</small> = </p>
         <input type="text" id="x2" value="">
     </form><!--output-block-->
 </div><!--main-->

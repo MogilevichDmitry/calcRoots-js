@@ -7,8 +7,12 @@
     margin: 0 auto;
     text-align:center;
 }
+body{
+    font-family:'Ubuntu', sans-serif;
+}
 h1{
-    font:18px sans-serif;
+    font-size:18px;
+    font-weight:normal;
     margin-bottom: 10px;
 }
 p{
@@ -19,14 +23,46 @@ p{
 }
 .input-block input[type="text"]{
     max-width:50px;
-    height:21px;
+    padding:2px 5px;
+    border:1px solid darkgray;
+    outline:none;
 }
 .input-block p, .output-block p{
     display:inline-block;
 }
+.input-block{
+    background: ghostwhite;
+    padding:10px 0;
+    border-radius:33px 33px 0 0;
+}
+.output-block{
+    background: honeydew;
+    padding:10px 0;
+    border-radius:0 0 33px 33px ;
+}
 input[type="button"]{
-    margin: 30px auto;
-    margin-top: 10px;
+    margin: 10px auto;
     display: block;
-    width:120px;
+    padding: 5px 15px;
+}
+p .font_over{
+     font-size: 75%;
+     position:relative;
+     top:-5px;
+}
+p .font_under{
+    font-size: 65%;
+    position:relative;
+    bottom:-5px;
+}
+.output-block input[type="text"]{
+    padding:2px 5px;
+    border:1px solid darkgray;
+    outline:none;
+}
+input[type="text"]{
+    border-radius:2px;
+}
+.msgComplexNumbers{
+    font-weight:300;
 }
