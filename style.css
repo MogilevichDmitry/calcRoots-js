@@ -26,6 +26,7 @@ p{
     padding:2px 5px;
     border:1px solid darkgray;
     outline:none;
+    text-align:right;
 }
 .input-block p, .output-block p{
     display:inline-block;
@@ -33,12 +34,12 @@ p{
 .input-block{
     background: ghostwhite;
     padding:10px 0;
-    border-radius:33px 33px 0 0;
+    border-radius:20px 20px 0 0;
 }
 .output-block{
     background: honeydew;
     padding:10px 0;
-    border-radius:0 0 33px 33px ;
+    border-radius:0 0 20px 20px ;
 }
 input[type="button"]{
     margin: 10px auto;

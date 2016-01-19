@@ -5,9 +5,16 @@
 function calcRoots(container)
 {
     var a = document.getElementById("a").value;
+    if(!a){
+        a = 1;
+        document.getElementById("a").value = 1;
+    }
     var b = document.getElementById("b").value;
+    if(!b){
+        b = 1;
+        document.getElementById("b").value = 1;
+    }
     var c = document.getElementById("c").value;
-
     var D, x1, x2;
     D = b * b -4 * a * c;
     if (D === 0){
